@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wael Al-Anzi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-icon {
+            width: 250px;
+            height: 250px;
+            background-color: #2c3e50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 100px;
+            margin: 0 auto;
+            border: 5px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Wael Al-anazi</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Wael ALanazi</span></h1>
+            <p>Computer Science Student | Web Developer</p>
+            
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <div class="profile-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I'm a Computer Science student with a passion for web development and AI programming. I enjoy creating innovative technical solutions and expanding my programming skills.</p>
+                <div class="skills">
+                    <h3>Core Skills:</h3>
+                    <ul>
+                        <li><i class="fas fa-globe"></i> Web Development (HTML, CSS, JavaScript)</li>
+                        <li><i class="fas fa-brain"></i> AI Development with Prolog</li>
+                        <li><i class="fas fa-file-code"></i> .NET Desktop Development (Windows Forms, Console Apps, WPF using C#)</li>                        <li><i class="fas fa-database"></i> Database Management</li>
+                        <li><i class="fas fa-mobile-alt"></i> Responsive Web Design</li>
+                        <li><i class="fab fa-js"></i>  JavaScript </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- المؤهلات -->
+    <section id="qualifications" class="qualifications">
+        <h2>Qualifications & Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2020 - Present</div>
+                <div class="timeline-content">
+                    <h3>Computer Science Student</h3>
+                    <p>Tabuk University, Computer Science Major</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Will be filled by JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-envelope"></i> waeelmansour999@gmail.com</p>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Wael Al-Anazi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
